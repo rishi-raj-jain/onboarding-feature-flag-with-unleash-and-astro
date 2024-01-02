@@ -1,0 +1,23 @@
+---
+import Layout from '@/layout/Layout.astro'
+---
+
+<Layout>
+  <div class="divide-y divide-gray-300/50">
+    <div class="space-y-6 py-8 text-base leading-7 text-gray-600">
+      <p>This is an example of using Astro with Unleash Client SDK.</p>
+      <p>
+        If you're part of the
+        <span class="bg-gray-100 px-1 rounded">onboarding</span> flow set by the demo <span class="bg-green-900 text-white px-1 rounded">Unleash</span>
+        instance, you'd be taken through an onboarding flow below after entering your name and password below 👇🏻
+      </p>
+    </div>
+    <form method="post" action="/api/signup" class="pt-8 text-base font-semibold flex flex-col leading-7 gap-y-4">
+      <input required name="name" type="text" placeholder="Name (a demo)" class="rounded border py-1 px-3 focus:border-[#1a4048] text-[#1a4048] outline-none" />
+      <input required name="password" type="password" placeholder="Password (a demo)" class="rounded border py-1 px-3 focus:border-[#1a4048] text-[#1a4048] outline-none" />
+      <button type="submit" class="text-[#1a4048]/75 border-[#1a4048]/75 hover:text-white hover:bg-[#1a4048] border rounded px-3 py-1 duration-200 transition max-w-max">
+        Sign Up &rarr;
+      </button>
+    </form>
+  </div>
+</Layout>
