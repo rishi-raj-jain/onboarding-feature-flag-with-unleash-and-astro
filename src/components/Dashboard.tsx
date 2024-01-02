@@ -13,7 +13,7 @@ export default function () {
             {enabled ? (
               <>
                 {' '}
-                Feel free to take a moment to appreciate the ease of setting up feature flags with <span class="rounded bg-green-900 px-1 text-white">Unleash</span>.
+                Feel free to take a moment to appreciate the ease of setting up feature flags with <span className="rounded bg-green-900 px-1 text-white">Unleash</span>.
               </>
             ) : (
               <>
