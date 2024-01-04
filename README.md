@@ -27,4 +27,4 @@ A demo of Feature Flags with [Astro](https://astro.build) and [Unleash](https://
 
 ## Author
 
-- Rishi Raj Jain ([@rishi*raj_jain*](https://twitter.com/rishi_raj_jain_))
+- Rishi Raj Jain ([@rishi_raj_jain_](https://twitter.com/rishi_raj_jain_))
